@@ -1,11 +1,11 @@
-flappybirdv0:
-  env_id:FlappyBird-v0
-  epsilon_init:1 #epsilon ki starting value
-  epsilon_min:0.05 #minimum kitna epsilon ki value hogi
-  epsilon_decay:0.9995 #kitna decay(decrease hoga)
-  replay_memory_size:100000 #kitna exp save krna h exp replay memory mmei
-  mini_batch_size:32
-  network_sync_rate:10 #after how many steps in policy network uski copy lege as target network
-  alpha:0.001
-  gamma:0.99
-  reward_threshold:1000
+flappybird-v0:
+  env_id: FlappyBird-v0
+  epsilon_init: 1 #epsilon ki starting value
+  epsilon_min: 0.05 #minimum kitna epsilon ki value hogi
+  epsilon_decay: 0.9995 #kitna decay(decrease hoga)
+  replay_memory_size: 100000 #kitna exp save krna h exp replay memory mmei
+  mini_batch_size: 32
+  network_sync_rate: 10 #after how many steps in policy network uski copy lege as target network
+  alpha: 0.001
+  gamma: 0.99
+  reward_threshold: 1000
